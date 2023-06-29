@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+      background-color: #2D354A;
+
+  }
+.main_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 530px;
+    width: 300px;
+    background-color: #1D1D1D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input_display {
+    padding: 40px 0;
+}
+
+.input_number_box {
+    background-color: #1C1C1C;
+    border-color: #FCAE02;
+    color:aqua;
+    height: 75px;
+    width: 250px;
+    font-size: 25px;
+    font-family: 'Agdasima', sans-serif;
+}
+
+.input_number_box:click {
+    border-color: #FCAE02;
+}
+
+.buttons_container {
+    display: flex;
+}
+
+.buttons {
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    font-family: 'Agdasima', sans-serif;
+    margin: 5px;
+    border-radius: 50px;
+    color: #FCAE02;
+    background-color: #1D1C1A;
+}
+
+.equal {
+    height: 100px;
+    padding-bottom: 5px;
+}
+
+.btn_column_1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn_column_2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn_column_3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn_column_4 {
+    display: flex;
+    flex-direction: column;
+}
+.developer{
+    margin-top: 10px;
+    border-top: 1.5px dotted aquamarine;
+    color:aquamarine;
+}
+.developer p{
+    padding-top: 5px;
+}
